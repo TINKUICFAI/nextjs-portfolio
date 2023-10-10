@@ -25,9 +25,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-/* Container for scrolling */
-.scroll-container {
-  max-height: 7em; /* Adjust the height to control the number of lines */
-  overflow-y: scroll;
-}

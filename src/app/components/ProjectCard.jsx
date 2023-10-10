@@ -26,9 +26,8 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="mb-2 text-xl font-semibold">{title}</h5>
-        <p class="scroll-container" className="overflow-y-auto max-h-40">
-          {description}
-        </p>
+        {/* <p class="scroll-container">{description}</p> */}
+        <div className="max-h-[300px] overflow-y-auto">{description}</div>
       </div>
     </div>
   );
