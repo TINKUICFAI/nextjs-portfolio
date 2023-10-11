@@ -35,8 +35,8 @@ const projectsData = [
   {
     id: 2,
     title: "Book Your Gift",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    description: "",
+    image: "/images/projects/bookyourgift.png",
     tag: ["All", "Web"],
     gitUrl: "",
     previewUrl: "https://www.bookyourgift.in/",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 3,
     title: "The GameHunt",
-    description: "Project 4 description",
+    description: "",
     image: "/images/projects/gamehunt.png",
     tag: ["All","Web", "Mobile"],
     gitUrl: "/",
@@ -53,8 +53,8 @@ const projectsData = [
   {
     id: 4,
     title: "Trucking Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    description: "",
+    image: "https://play-lh.googleusercontent.com/VxqwkNlYDkPoGipLbE4ym-vvW5oTscvEVJExtR_JmdRRw4zxXBDkq8FQwJ620tCTBDg=w240-h480-rw",
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "https://play.google.com/store/apps/details?id=app.trucking",
@@ -62,7 +62,7 @@ const projectsData = [
   {
     id: 5,
     title: "The Bamboo Link",
-    description: "Project 4 description",
+    description: "",
     image: "/images/projects/bkp.png",
     tag: ["All","Web", "Mobile"],
     gitUrl: "/",
