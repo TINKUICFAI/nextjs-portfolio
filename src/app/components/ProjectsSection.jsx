@@ -29,8 +29,8 @@ const projectsData = [
     `,
     image: "/images/projects/portfolio_web.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/TINKUICFAI/nextjs-portfolio",
+    previewUrl: "https://portfolio-iota-nine-29.vercel.app/",
   },
   // {
   //   id: 2,

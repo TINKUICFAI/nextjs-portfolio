@@ -1,5 +1,5 @@
 "use client";
-import React, { useTransition, useState } from "react";
+import { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
@@ -17,6 +17,7 @@ const TAB_DATA = [
         <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React js</li>
+        <li>Next js</li>
       </ul>
     ),
   },
@@ -25,7 +26,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="pl-2 list-disc">
-        <li>The ICFAI University, Jaipur</li>
+        <li>B.tech CSE ,The ICFAI University, Jaipur</li>
       </ul>
     ),
   },
