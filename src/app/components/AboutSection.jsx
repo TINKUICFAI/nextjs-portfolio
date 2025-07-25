@@ -37,7 +37,7 @@ const TAB_DATA = [
     content: (
       <ul className="pl-2 list-disc">
         <li>AWS Certified Developer – Associate</li>
-        <li>Completed: Node.js Mastery Bootcamp</li>
+        <li>Completed: Node.js Mastery Boot camp</li>
       </ul>
     ),
   },
@@ -60,16 +60,17 @@ const AboutSection = () => {
         <div className="flex flex-col h-full mt-4 text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-white">About Me</h2>
           <p className="text-base lg:text-lg">
-            I’m a full stack web developer with over 3 years of hands-on
+            I&#39;m a full stack web developer with over 3 years of hands-on
             experience building scalable backend systems using Node.js,
             Express.js, and serverless architectures on AWS. My expertise
             includes both SQL (MySQL) and NoSQL (MongoDB) databases, with ORM
             tools like Sequelize to streamline data operations. On the frontend,
-            I’ve delivered responsive and user-friendly interfaces using
-            React.js and Next.js. I'm a quick learner, AWS-experienced, and
+            I&#39;ve delivered responsive and user-friendly interfaces using
+            React.js and Next.js. I&#39;m a quick learner, AWS-experienced, and
             always driven to explore new technologies and solve real-world
             problems through clean and efficient code.
           </p>
+
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
