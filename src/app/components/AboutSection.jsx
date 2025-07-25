@@ -18,6 +18,7 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>React js</li>
         <li>Next js</li>
+        <li>AWS</li>
       </ul>
     ),
   },
@@ -30,16 +31,16 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  // {
-  //   title: "Certifications",
-  //   id: "certifications",
-  //   content: (
-  //     <ul className="pl-2 list-disc">
-  //       <li>AWS Cloud Practitioner</li>
-  //       <li>Google Professional Cloud Developer</li>
-  //     </ul>
-  //   ),
-  // },
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: (
+      <ul className="pl-2 list-disc">
+        <li>AWS Certified Developer – Associate</li>
+        <li>Completed: Node.js Mastery Bootcamp</li>
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -59,12 +60,15 @@ const AboutSection = () => {
         <div className="flex flex-col h-full mt-4 text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-white">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I’m a full stack web developer with over 3 years of hands-on
+            experience building scalable backend systems using Node.js,
+            Express.js, and serverless architectures on AWS. My expertise
+            includes both SQL (MySQL) and NoSQL (MongoDB) databases, with ORM
+            tools like Sequelize to streamline data operations. On the frontend,
+            I’ve delivered responsive and user-friendly interfaces using
+            React.js and Next.js. I'm a quick learner, AWS-experienced, and
+            always driven to explore new technologies and solve real-world
+            problems through clean and efficient code.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -81,13 +85,13 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            {/* <TabButton
+            <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
               Certifications{" "}
-            </TabButton> */}
+            </TabButton>
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
