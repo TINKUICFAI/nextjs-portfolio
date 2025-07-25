@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I am a seasoned Node.js Full Stack Developer with 2+ years of
+            I am a seasoned Node.js Full Stack Developer with 4+ years of
             experience. Proficient in Express.js, serverless frameworks,
             MongoDB, MySQL, AWS cloud services, CI/CD pipelines, and Docker. I
             excel in building scalable web applications, embracing modern
